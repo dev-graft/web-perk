@@ -1,0 +1,8 @@
+rootProject.name = 'web-perk'
+
+include ':components:crypto'
+include ':components:module-crypto'
+include ':components:support-advice-response'
+include ':components:support-logging'
+include ':components:support-mustache'
+include ':applications:app-demo'
