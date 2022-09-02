@@ -4,7 +4,12 @@
     <title>Monolith-Shop</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <style type="text/css">
+        /*h1 {*/
+        /*    visibility: hidden;*/
+        /*    font-size: 0*/
+        /*}*/
         h2 {
             font-size: 0
         }
@@ -75,18 +80,13 @@
         }
 
         .footer_comm {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .footer_comm {
-            display: inline;
             width: 100%;
             text-align: center;
+            background-image: url(https://semalt.tools/img/concrete-texture.fa6a95e7.png);
         }
 
         .footer_comm .service_info {
+
         }
 
         .footer_comm .link_info {
@@ -97,10 +97,126 @@
 
         }
 
+        .with-sidebar .content_container {
+            padding-left: 250px
+        }
+
+        .content_container {
+            padding-top: 45px;
+            height: 686px;
+            background: url(https://semalt.tools/img/concrete-texture.fa6a95e7.png);
+        }
+
+        .content_inner {
+            padding: 10px 10px 50px
+        }
+
+        .content_inner * {
+            box-sizing: border-box;
+        }
+
+        .content_container .fragment_box {
+            margin: 20px auto;
+            max-width: 80%;
+            padding: 30px;
+            background: #fff;
+        }
+
+        .fragment_box {
+            max-width: 810px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .fragment_box h1 {
+            font-weight: 500;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .input_box {
+            padding: 20px 0;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .text_area {
+            border-radius: 3px;
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            border: 1px solid #aaa;
+            background: #fff;
+        }
+
+        textarea {
+            padding-left: 8px;
+            padding-right: 8px;
+            width: 100%;
+            min-width: 100%;
+            max-width: 100%;
+            height: 150px;
+            font-size: 13px;
+            font-family: inherit;
+            border: none;
+            outline: none;
+            background: transparent;
+        }
+
+        table {
+            display: table;
+            border-collapse: separate;
+            box-sizing: border-box;
+            text-indent: initial;
+            border-spacing: 2px;
+            border-color: grey;
+        }
+
+        table tr {
+            vertical-align: middle;
+        }
+
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+            border-collapse: separate;
+            text-indent: initial;
+            border-spacing: 2px;
+        }
+
+        td {
+            display: table-cell;
+            vertical-align: inherit;
+        }
+
+        .fragment_box .result_tbl {
+            margin: 20px auto;
+            min-width: 210px;
+            border-collapse: collapse;
+        }
+
+        .fragment_box .result_tbl tr td:first-child {
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 13px;
+            color: #555;
+            background: #f7f7f7;
+        }
+
+        .fragment_box .result_tbl .result_td {
+            min-width: 300px;
+        }
+
+        .fragment_box .result_tbl tr td {
+            padding: 3px 6px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
-<h1 id="Monolith-Shop"></h1>
+<!--<h1 id="Monolith-Shop"></h1>-->
 <div class="header_comm">
     <div class="header_left">
         WEB PERK

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CryptoApi {
 
     @GetMapping("md5")
-    public String encryptToMD5(@RequestParam(name = "text") final String text) {
+    public String generateToMD5(@RequestParam(name = "text") final String text) {
         return MD5.encrypt(text);
     }
 }

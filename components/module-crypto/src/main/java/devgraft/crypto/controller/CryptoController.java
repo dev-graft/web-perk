@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CryptoController {
     @GetMapping
     public String home() {
-        return "crypto";
+        return "crypto-md5";
     }
 }

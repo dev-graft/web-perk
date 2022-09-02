@@ -1,0 +1,23 @@
+{{> layout/header}}
+<div class="content_container">
+    <div class="content_inner">
+        <div class="fragment_box perk-md5">
+            <h1 class="title_banner">MD5 생성기</h1>
+            <div class="input_box">
+                <div class="text_area">
+                    <textarea id="text" placeholder="문자열을 입력해주세요."></textarea>
+                </div>
+            </div>
+            <table class="result_tbl">
+                <tr>
+                    <td>MD5 결과:</td>
+                    <td class="result_td"><span id="hash-text">AAA</span></td>
+                    <td><button onclick="copyToClipboard('#hash-text')">Clip</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="/js/app/md5-func.js"></script>
+{{> layout/footer}}
